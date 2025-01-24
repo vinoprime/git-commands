@@ -1,0 +1,9 @@
+# to crate new branch and checkout
+$ git checkout -b <branch_name>
+
+# to get main branhch update
+$ git rebase main
+# if conflicts while rebase fix conflicts and
+$ git rebase --continue
+# push changes to the working branch
+$ git push -f
