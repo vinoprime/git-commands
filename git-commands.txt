@@ -7,3 +7,9 @@ $ git rebase main
 $ git rebase --continue
 # push changes to the working branch
 $ git push -f
+
+
+# To store changes temporly
+$ git stash
+# To get changes agian in the branch
+$ git stash pop
