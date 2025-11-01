@@ -13,3 +13,9 @@ $ git push -f
 $ git stash
 # To get changes agian in the branch
 $ git stash pop
+
+
+# revert to revious commit that worked well
+$ git reset --hard <working-commit-id>
+$ git push origin main --force
+
